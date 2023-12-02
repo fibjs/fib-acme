@@ -5,12 +5,12 @@ The `fib-acme` module is a lightweight and flexible wrapper around the ACME prot
 
 ## Features
 
-• Automatic certificate generation and renewal
-• Automatically starts an HTTPS server and upgrades the certificate when it is renewed
-• Integration with Let’s Encrypt services
-• Support for ECDSA and RSA key types
-• Flexible configuration options
-• Easy-to-use API
+* Automatic certificate generation and renewal
+* Automatically starts an HTTPS server and upgrades the certificate when it is renewed
+* Integration with Let’s Encrypt services
+* Support for ECDSA and RSA key types
+* Flexible configuration options
+* Easy-to-use API
 
 ## Installation
 
@@ -75,12 +75,12 @@ The acme.json file has the following structure:
 }
 ```
 
-• service: The URL of the ACME service. By default, it is set to the Let’s Encrypt staging service for testing purposes.
-• domain: The domain for which the SSL certificate is requested.
-• email: The email address to be associated with the SSL certificate.
-• key: The key pair used for the ACME account. It includes the key type, curve, public key coordinates, and the private key.
-• kid: The URL of the ACME account.
-• cert: The key pair used for the SSL certificate. It includes the key type, curve, public key coordinates, and the private key, as well as the certificate itself.
+* service: The URL of the ACME service. By default, it is set to the Let’s Encrypt staging service for testing purposes.
+* domain: The domain for which the SSL certificate is requested.
+* email: The email address to be associated with the SSL certificate.
+* key: The key pair used for the ACME account. It includes the key type, curve, public key coordinates, and the private key.
+* kid: The URL of the ACME account.
+* cert: The key pair used for the SSL certificate. It includes the key type, curve, public key coordinates, and the private key, as well as the certificate itself.
 
 ## API
 
@@ -88,9 +88,9 @@ The acme.json file has the following structure:
 
 Creates a new `AcmeApp` instance with the provided options. The available options are:
 
-• domain (required): The domain for which the SSL certificate is requested.
-• email (required): The email address to be associated with the SSL certificate.
-• handler (required): The request handler function called when a verification request is made.
+* domain (required): The domain for which the SSL certificate is requested.
+* email (required): The email address to be associated with the SSL certificate.
+* handler (required): The request handler function called when a verification request is made.
 
 #### Example:
 

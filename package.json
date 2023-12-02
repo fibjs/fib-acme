@@ -1,6 +1,6 @@
 {
   "name": "fib-acme",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "a lightweight and flexible wrapper around the ACME protocol that allows you to easily manage SSL certificates for your domains.",
   "main": "lib/index.js",
   "repository": "git://github.com/fibjs/fib-acme.git",
