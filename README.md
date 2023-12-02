@@ -24,6 +24,7 @@ $ fibjs --install fib-acme
 const AcmeApp = require('fib-acme');
 
 const app = new AcmeApp({
+  config: 'path/to/acme.json',
   domain: '<your_domain>',
   email: '<your_email>',
   handler: function (req) {
@@ -88,6 +89,7 @@ The acme.json file has the following structure:
 
 Creates a new `AcmeApp` instance with the provided options. The available options are:
 
+* config (required): The path to the configuration file.
 * domain (required): The domain for which the SSL certificate is requested.
 * email (required): The email address to be associated with the SSL certificate.
 * handler (required): The request handler function called when a verification request is made.
@@ -98,6 +100,7 @@ Creates a new `AcmeApp` instance with the provided options. The available option
 const AcmeApp = require('fib-acme');
 
 const app = new AcmeApp({
+  config: 'path/to/acme.json',
   domain: '<your_domain>',
   email: '<your_email>',
   handler: function (req) {
