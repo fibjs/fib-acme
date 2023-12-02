@@ -15,7 +15,7 @@ The `fib-acme` module is a lightweight and flexible wrapper around the ACME prot
 ## Installation
 
 ```sh
-$ fibjs --install `fib-acme`
+$ fibjs --install fib-acme
 ```
 
 ## Usage
