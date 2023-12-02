@@ -1,0 +1,18 @@
+{
+  "name": "fib-acme",
+  "version": "1.0.0",
+  "description": "a lightweight and flexible wrapper around the ACME protocol that allows you to easily manage SSL certificates for your domains.",
+  "main": "lib/index.js",
+  "repository": "git://github.com/fibjs/fib-acme.git",
+  "homepage": "https://github.com/fibjs/fib-acme",
+  "license": "MIT",
+ "keywords": [
+    "fibjs",
+    "acme",
+    "https"
+  ],
+  "author": "Liu Hu <lion@9465.net>",
+  "dependencies": {
+    "fib-jws": "^0.3.2"
+  }
+}
